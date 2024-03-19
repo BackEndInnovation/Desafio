@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https: //fonts.googleapis.com/css2?family=Inter&family=Inter+Tight:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Desafio Decofidicador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/Logo.png" alt="Logo">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" id="text-area" type="text" value="" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            <div class="informacao">
+                <h6>Apenas letras minuscúla e sem acento</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-codificar" onclick="codificar()">Codificar</button>
+                <button class="btn-decodificar" onclick="decodificar()">Decodificar</button>
+            </div>
+    
+        </section>
+        <section>
+            <textarea class="mensagem" id="result" type="text" value="" cols="20" rows="10"></textarea>
+            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
